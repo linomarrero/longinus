@@ -7,7 +7,7 @@ type NavLogoProps = {
   theme: NavTheme;
 };
 
-const logoClass = "h-17 w-auto sm:h-18.7 md:h-20";
+const logoClass = "h-18.3 w-auto sm:h-20.1 md:h-22";
 
 export function NavLogo({ theme }: NavLogoProps) {
   const colorClass = theme === "light" ? "brightness-0" : "brightness-0 invert";
