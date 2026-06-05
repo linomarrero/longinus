@@ -8,7 +8,7 @@ type NavLogoProps = {
   useBlend: boolean;
 };
 
-const logoClass = "h-15 w-auto sm:h-17 md:h-19";
+const logoClass = "h-26 w-auto sm:h-32 md:h-38";
 
 export function NavLogo({ theme, useBlend }: NavLogoProps) {
   const colorClass = theme === "light" ? "brightness-0" : "brightness-0 invert";
