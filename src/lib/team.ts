@@ -34,14 +34,14 @@ export const teamMembers: TeamMember[] = [
   {
     id: "patrick",
     name: "Patrick Latterell",
-    credentials: ["Director of Partnerships", "Investor"],
+    credentials: ["ASES Director of Partnerships", "Stanford Management Group VP", "Stanford Electrical Engineering", "Venture Capital Investor"],
     initials: "PL",
     gradient: "from-[#252525] to-[#452530]",
   },
   {
     id: "walker",
     name: "Walker Coley",
-    credentials: ["CFO"],
+    credentials: ["CFO of ASES", "Stanford Finance VP", "Private Equity Investor"],
     initials: "WC",
     gradient: "from-[#1f1f1f] to-[#3a2530]",
   },
