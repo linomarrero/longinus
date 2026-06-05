@@ -5,18 +5,17 @@ import type { NavTheme } from "@/hooks/useNavTheme";
 
 type NavLogoProps = {
   theme: NavTheme;
-  useBlend: boolean;
 };
 
-const logoClass = "h-26 w-auto sm:h-32 md:h-38";
+const logoClass = "h-8 w-auto sm:h-9 md:h-10";
 
-export function NavLogo({ theme, useBlend }: NavLogoProps) {
+export function NavLogo({ theme }: NavLogoProps) {
   const colorClass = theme === "light" ? "brightness-0" : "brightness-0 invert";
 
   return (
     <a
       href="#hero"
-      className={`relative shrink-0 ${useBlend ? "mix-blend-difference" : ""}`}
+      className="relative shrink-0"
       aria-label="Longinus Ventures home"
     >
       <Image
@@ -24,7 +23,7 @@ export function NavLogo({ theme, useBlend }: NavLogoProps) {
         alt=""
         width={1200}
         height={640}
-        className={`${logoClass} ${useBlend ? "" : colorClass}`}
+        className={`${logoClass} ${colorClass}`}
         priority
       />
     </a>

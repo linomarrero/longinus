@@ -1,9 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { NavLogo } from "@/components/layout/NavLogo";
 import { useNavTheme } from "@/hooks/useNavTheme";
-import { useReducedMotion } from "@/hooks/useReducedMotion";
 
 const links = [
   { label: "Thesis", href: "#thesis" },
@@ -13,15 +11,7 @@ const links = [
 ];
 
 export function Navigation() {
-  const reducedMotion = useReducedMotion();
-  const { theme, overAccent } = useNavTheme();
-  const [visible, setVisible] = useState(reducedMotion);
-
-  useEffect(() => {
-    if (reducedMotion) return;
-    const timer = window.setTimeout(() => setVisible(true), 2200);
-    return () => window.clearTimeout(timer);
-  }, [reducedMotion]);
+  const { theme } = useNavTheme();
 
   const isLight = theme === "light";
   const linkClass = isLight
@@ -30,15 +20,15 @@ export function Navigation() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 backdrop-blur-md transition-[background-color,opacity] duration-300 ${
-        isLight ? "bg-light-gray/75" : "bg-ink/75"
-      } ${visible ? "opacity-100" : "opacity-0"}`}
+      className={`fixed inset-x-0 top-0 z-50 backdrop-blur-md transition-colors duration-300 ${
+        isLight ? "bg-light-gray/70" : "bg-ink/70"
+      }`}
     >
       <nav
-        className="mx-auto flex max-w-[1400px] items-center justify-between py-3 pl-3 pr-5 md:py-4 md:pl-4 md:pr-8"
+        className="mx-auto flex max-w-[1400px] items-center justify-between py-2 pl-3 pr-5 md:py-2.5 md:pl-4 md:pr-8"
         aria-label="Primary"
       >
-        <NavLogo theme={theme} useBlend={!overAccent} />
+        <NavLogo theme={theme} />
 
         <ul className="flex items-center gap-3 sm:gap-6 md:gap-10">
           {links.map((link) => (

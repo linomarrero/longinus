@@ -11,14 +11,13 @@ type AnimatedWordsProps = {
 };
 
 const wordVariants: Variants = {
-  hidden: { opacity: 0, y: 24, filter: "blur(6px)" },
+  hidden: { opacity: 0, y: 10 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    filter: "blur(0px)",
     transition: {
-      delay: i * 0.12,
-      duration: 0.55,
+      delay: i * 0.08,
+      duration: 0.45,
       ease: [0.22, 1, 0.36, 1],
     },
   }),

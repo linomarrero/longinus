@@ -10,7 +10,7 @@
   --light-text: #c9cdd3;
   /* Sits in the left gutter, never over content */
   --spear-line-x: 1rem;
-  --nav-height: 6.5rem;
+  --nav-height: 3.25rem;
 }
 
 @theme inline {
@@ -25,15 +25,9 @@
   --font-sans: var(--font-inter), system-ui, sans-serif;
 }
 
-@media (min-width: 640px) {
-  :root {
-    --nav-height: 8.5rem;
-  }
-}
-
 @media (min-width: 768px) {
   :root {
-    --nav-height: 10rem;
+    --nav-height: 3.75rem;
     --spear-line-x: max(
       1.25rem,
       calc((100vw - min(100vw, 87.5rem)) / 2 - 1rem)
