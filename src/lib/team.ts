@@ -11,7 +11,7 @@ export const teamMembers: TeamMember[] = [
     name: "Amari Luu",
     credentials: [
       "President of ASES",
-      "Hoover Fellow",
+      "Hoover Student Fellow",
       "Department of Commerce Analyst",
       "Published Author",
     ],
