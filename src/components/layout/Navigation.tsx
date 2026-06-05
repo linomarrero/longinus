@@ -35,7 +35,7 @@ export function Navigation() {
       } ${visible ? "opacity-100" : "opacity-0"}`}
     >
       <nav
-        className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4 md:px-10 md:py-5"
+        className="mx-auto flex max-w-[1400px] items-center justify-between py-3 pl-3 pr-5 md:py-4 md:pl-4 md:pr-8"
         aria-label="Primary"
       >
         <NavLogo theme={theme} useBlend={!overAccent} />

@@ -13,7 +13,7 @@ export function SpearLine() {
   if (reducedMotion) {
     return (
       <div
-        className="pointer-events-none fixed spear-line-x top-0 z-40 h-full w-[2px] bg-crimson"
+        className="pointer-events-none fixed spear-line-x spear-line-y z-40 w-[2px] bg-crimson"
         aria-hidden="true"
       />
     );
@@ -21,7 +21,7 @@ export function SpearLine() {
 
   return (
     <motion.div
-      className="pointer-events-none fixed spear-line-x top-0 z-40 h-full w-[2px]"
+      className="pointer-events-none fixed spear-line-x spear-line-y z-40 w-[2px]"
       style={{ opacity }}
       aria-hidden="true"
     >
