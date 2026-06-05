@@ -22,8 +22,8 @@ export function NavLogo({ theme, useBlend }: NavLogoProps) {
       <Image
         src="/logo.svg"
         alt=""
-        width={600}
-        height={320}
+        width={1200}
+        height={640}
         className={`${logoClass} ${useBlend ? "" : colorClass}`}
         priority
       />
