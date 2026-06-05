@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import { useCallback, useState } from "react";
 import { teamMembers } from "@/lib/team";
 import { useReducedMotion } from "@/hooks/useReducedMotion";
@@ -72,13 +73,14 @@ export function Team() {
                         className="overflow-hidden"
                       >
                         <div className="flex flex-col gap-6 pt-6 md:flex-row md:items-start md:gap-10 md:pt-8">
-                          <div
-                            className={`flex h-28 w-28 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${member.gradient} md:h-36 md:w-36`}
-                            aria-hidden="true"
-                          >
-                            <span className="font-serif text-3xl text-white/90 md:text-4xl">
-                              {member.initials}
-                            </span>
+                          <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-full md:h-36 md:w-36">
+                            <Image
+                              src={member.image}
+                              alt=""
+                              fill
+                              className="object-cover"
+                              sizes="(max-width: 768px) 112px, 144px"
+                            />
                           </div>
                           <ul className="flex flex-col gap-2 font-sans text-sm leading-relaxed text-muted md:text-base">
                             {member.credentials.map((credential) => (

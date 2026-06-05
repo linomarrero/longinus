@@ -2,8 +2,7 @@ export type TeamMember = {
   id: string;
   name: string;
   credentials: string[];
-  initials: string;
-  gradient: string;
+  image: string;
 };
 
 export const teamMembers: TeamMember[] = [
@@ -16,8 +15,7 @@ export const teamMembers: TeamMember[] = [
       "Department of Commerce Analyst",
       "Published Author",
     ],
-    initials: "AL",
-    gradient: "from-[#2a2a2a] to-[#4a2030]",
+    image: "/team/amari-luu.jpg",
   },
   {
     id: "lino",
@@ -28,21 +26,27 @@ export const teamMembers: TeamMember[] = [
       "Award-winning Public Speaker",
       "Patent-pending Inventor",
     ],
-    initials: "LM",
-    gradient: "from-[#1a1a2e] to-[#3d1a28]",
+    image: "/team/lino-marrero.jpg",
   },
   {
     id: "patrick",
     name: "Patrick Latterell",
-    credentials: ["ASES Director of Partnerships", "Stanford Management Group VP", "Stanford Electrical Engineering", "Investor"],
-    initials: "PL",
-    gradient: "from-[#252525] to-[#452530]",
+    credentials: [
+      "ASES Director of Partnerships",
+      "Stanford Management Group VP",
+      "Stanford Electrical Engineering",
+      "Investor",
+    ],
+    image: "/team/patrick-latterell.jpg",
   },
   {
     id: "walker",
     name: "Walker Coley",
-    credentials: ["CFO of ASES", "Stanford Finance VP", "Private Equity Investor"],
-    initials: "WC",
-    gradient: "from-[#1f1f1f] to-[#3a2530]",
+    credentials: [
+      "CFO of ASES",
+      "Stanford Finance VP",
+      "Private Equity Investor",
+    ],
+    image: "/team/walker-coley.jpg",
   },
 ];
