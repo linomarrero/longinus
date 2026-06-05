@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://longinus.vc"),
   title: "Longinus Ventures",
   description:
     "A pre-seed venture fund backing the most ambitious young builders in the country, often before they know they're founders.",
