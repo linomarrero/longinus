@@ -34,7 +34,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "patrick",
     name: "Patrick Latterell",
-    credentials: ["ASES Director of Partnerships", "Stanford Management Group VP", "Stanford Electrical Engineering", "Venture Capital Investor"],
+    credentials: ["ASES Director of Partnerships", "Stanford Management Group VP", "Stanford Electrical Engineering", "Investor"],
     initials: "PL",
     gradient: "from-[#252525] to-[#452530]",
   },
