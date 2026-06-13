@@ -23,7 +23,6 @@ export const teamMembers: TeamMember[] = [
     credentials: [
       "VP of ASES",
       "Stanford Engineering AI Researcher",
-      "Award-winning Public Speaker",
       "Patent-pending Inventor",
     ],
     image: "/team/lino-marrero.jpg",
@@ -35,7 +34,6 @@ export const teamMembers: TeamMember[] = [
       "ASES Director of Partnerships",
       "Stanford Management Group VP",
       "Stanford Electrical Engineering",
-      "Investor",
     ],
     image: "/team/patrick-latterell.jpg",
   },

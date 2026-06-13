@@ -40,8 +40,7 @@ export function Contact() {
             id="contact-heading"
             className="max-w-[20ch] font-serif text-[clamp(2rem,4.5vw,3.75rem)] leading-[1.1] tracking-[-0.03em] text-white"
           >
-            The next great company is in a classroom right now. We exist to
-            make that bet.
+            Building at Stanford? Write us.
           </h2>
 
           <div className="mt-16 grid grid-cols-1 gap-16 md:mt-24 md:grid-cols-[1fr_1.1fr] md:gap-24">
@@ -53,8 +52,8 @@ export function Contact() {
                 hello@longinus.vc
               </a>
               <p className="mt-4 max-w-xs font-sans text-sm leading-relaxed text-white/70">
-                For founders, partners, and anyone building before the world
-                notices.
+                Founders from the ASES network and co-investors who want
+                access.
               </p>
             </div>
 
@@ -65,9 +64,7 @@ export function Contact() {
                 aria-live="polite"
               >
                 <p className="text-lg text-white">Message received.</p>
-                <p className="mt-2 text-sm">
-                  We read every note. Expect to hear from us soon.
-                </p>
+                <p className="mt-2 text-sm">We read every note.</p>
               </div>
             ) : (
               <form

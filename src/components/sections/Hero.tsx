@@ -30,7 +30,11 @@ export function Hero() {
           id="hero-heading"
           className="max-w-[14ch] font-serif text-[clamp(2rem,5.5vw,4.75rem)] leading-[0.95] tracking-[-0.03em] text-white"
         >
-          <AnimatedWords text="We don't find founders," delay={0.2} as="span" />
+          <AnimatedWords
+            text="We invest out of the room"
+            delay={0.2}
+            as="span"
+          />
           <span className="mt-2 block min-h-[1.05em] text-crimson">
             {showSecondLine ? (
               <motion.span
@@ -38,11 +42,15 @@ export function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               >
-                <AnimatedWords text="We make them." delay={0} as="span" />
+                <AnimatedWords
+                  text="every other fund is trying to get into."
+                  delay={0}
+                  as="span"
+                />
               </motion.span>
             ) : (
               <span className="invisible" aria-hidden="true">
-                We make them.
+                every other fund is trying to get into.
               </span>
             )}
           </span>

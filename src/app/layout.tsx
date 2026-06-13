@@ -20,10 +20,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://longinus.vc"),
   title: "Longinus Ventures",
   description:
-    "A pre-seed venture fund backing the most ambitious young builders in the country, often before they know they're founders.",
+    "Pre-seed fund led by ASES at Stanford. We invest out of the room every other fund is trying to get into.",
   openGraph: {
     title: "Longinus Ventures",
-    description: "We don't find founders. We make them.",
+    description:
+      "We invest out of the room every other fund is trying to get into.",
     type: "website",
   },
 };

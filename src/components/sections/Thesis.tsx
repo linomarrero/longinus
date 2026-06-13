@@ -24,8 +24,8 @@ export function Thesis() {
           animate={inView || reducedMotion ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          The gap isn&apos;t undiscovered startups. It&apos;s{" "}
-          <span className="text-crimson">undiscovered founders</span>
+          The data says we&apos;re wrong.{" "}
+          <span className="text-crimson">We bet anyway.</span>
         </motion.h2>
 
         <motion.div
@@ -35,28 +35,17 @@ export function Thesis() {
           transition={{ delay: 0.3, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
           <p>
-            The evidence is clear, and most funds look away from it: the
-            founders who build the biggest companies are usually experienced
-            and well into their careers. We don&apos;t argue with that. We
-            exploit what it leaves behind.
+            The biggest companies get built by founders in their forties with
+            years of experience behind them. That&apos;s the base rate, and we
+            know it. Our bet is the rare young exception, years before anyone
+            else will write the check.
           </p>
           <p>
-            Capital crowds toward the proven founder and bids them up. The rare
-            young outlier, the one who doesn&apos;t yet know they&apos;re a
-            founder, sits undiscovered and unpriced, one safe decision away
-            from vanishing into banking, consulting, or law.
-          </p>
-          <p>
-            We don&apos;t guess at where they are. We lead ASES, the largest
-            entrepreneurship organization at Stanford and the network dozens of
-            venture firms compete just to reach. We&apos;re inside it. We see
-            real conviction before it&apos;s performed for a check, and we
-            reach the would-be founder before the offer letter does.
-          </p>
-          <p>
-            That&apos;s the edge: not sharper taste across a conference table,
-            but proprietary access to the best young builders in the world,
-            early, cheap, and uncontested.
+            We can do that because we run ASES, the largest entrepreneurship
+            organization at Stanford. Garry Tan came through it. So did David
+            Lee. Every year we meet hundreds of builders before they&apos;ve
+            decided they&apos;re founders, and we&apos;re the first call when
+            they do.
           </p>
         </motion.div>
       </div>

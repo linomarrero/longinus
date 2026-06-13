@@ -58,8 +58,8 @@ export function Divergence() {
             >
               <title id="divergence-heading">Talent divergence diagram</title>
               <desc id="divergence-desc">
-                Streams of talent flow toward Banking, Consulting, and Law.
-                One stream diverts away along the spear line.
+                Talent streams flow toward traditional career paths. One
+                stream diverts along the spear line.
               </desc>
 
               <defs>
@@ -138,8 +138,8 @@ export function Divergence() {
             }
           >
             <p className="max-w-xl font-serif text-[clamp(1.5rem,3.5vw,2.75rem)] leading-[1.2] tracking-[-0.02em] text-white">
-              The best young builders get swallowed before they ever try. We
-              pull them out first.
+              Most Stanford builders take the safe path. ASES is where we find
+              them first.
             </p>
           </motion.div>
         </div>

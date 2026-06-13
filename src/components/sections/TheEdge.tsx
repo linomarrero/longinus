@@ -24,7 +24,7 @@ export function TheEdge() {
           animate={inView || reducedMotion ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
         >
-          We make founders out of the people the rest of venture writes off.
+          We reach the would-be banker before the offer letter does.
         </motion.h2>
 
         <motion.p
@@ -33,7 +33,7 @@ export function TheEdge() {
           animate={inView || reducedMotion ? { opacity: 1 } : {}}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          We reach the would-be banker before the offer letter does.
+          We run ASES at Stanford.
         </motion.p>
       </div>
     </section>
