@@ -25,7 +25,7 @@ export function Contact() {
     <section
       id="contact"
       ref={ref}
-      className="relative bg-ink pb-12 pt-28 md:pb-16 md:pt-36"
+      className="relative bg-navy pb-12 pt-28 md:pb-16 md:pt-36"
       aria-labelledby="contact-heading"
     >
       <div className="pointer-events-none absolute bottom-0 spear-line-x hidden h-24 w-[2px] bg-crimson md:block" aria-hidden="true" />
@@ -52,7 +52,7 @@ export function Contact() {
               >
                 hello@longinus.vc
               </a>
-              <p className="mt-4 max-w-xs font-sans text-sm leading-relaxed text-light-text">
+              <p className="mt-4 max-w-xs font-sans text-sm leading-relaxed text-white/70">
                 For founders, partners, and anyone building before the world
                 notices.
               </p>
@@ -60,7 +60,7 @@ export function Contact() {
 
             {formState === "success" ? (
               <div
-                className="font-sans text-light-text"
+                className="font-sans text-white/70"
                 role="status"
                 aria-live="polite"
               >

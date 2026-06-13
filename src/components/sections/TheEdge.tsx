@@ -13,7 +13,7 @@ export function TheEdge() {
     <section
       id="edge"
       ref={ref}
-      className="relative bg-ink py-28 md:py-40"
+      className="relative bg-navy py-28 md:py-40"
       aria-labelledby="edge-heading"
     >
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
@@ -28,7 +28,7 @@ export function TheEdge() {
         </motion.h2>
 
         <motion.p
-          className="mt-10 font-sans text-sm tracking-wide text-light-text md:mt-14 md:text-base"
+          className="mt-10 font-sans text-sm tracking-wide text-white/70 md:mt-14 md:text-base"
           initial={reducedMotion ? false : { opacity: 0 }}
           animate={inView || reducedMotion ? { opacity: 1 } : {}}
           transition={{ delay: 0.5, duration: 0.8 }}

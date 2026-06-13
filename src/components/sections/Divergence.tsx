@@ -44,7 +44,7 @@ export function Divergence() {
     <section
       id="divergence"
       ref={containerRef}
-      className="relative bg-ink"
+      className="relative bg-navy"
       aria-labelledby="divergence-heading"
     >
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
@@ -64,8 +64,8 @@ export function Divergence() {
 
               <defs>
                 <linearGradient id="sinkGlow" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stopColor="#6B7280" stopOpacity="0" />
-                  <stop offset="100%" stopColor="#6B7280" stopOpacity="0.15" />
+                  <stop offset="0%" stopColor="var(--muted)" stopOpacity="0" />
+                  <stop offset="100%" stopColor="var(--muted)" stopOpacity="0.15" />
                 </linearGradient>
               </defs>
 
@@ -95,7 +95,7 @@ export function Divergence() {
                   key={stream.d}
                   d={stream.d}
                   fill="none"
-                  stroke="#6B7280"
+                  stroke="var(--muted)"
                   strokeWidth={1.5}
                   strokeOpacity={0.35 + (i % 3) * 0.08}
                   pathLength={1}
@@ -109,7 +109,7 @@ export function Divergence() {
               <motion.path
                 d={DIVERGENT}
                 fill="none"
-                stroke="#B5293F"
+                stroke="var(--crimson)"
                 strokeWidth={2}
                 pathLength={1}
                 style={{
@@ -118,12 +118,12 @@ export function Divergence() {
                 }}
               />
 
-              <circle cx={610} cy={40} r={4} fill="#FFFFFF" fillOpacity={0.6} />
+              <circle cx={610} cy={40} r={4} fill="var(--bg)" fillOpacity={0.6} />
               <motion.circle
                 cx={132}
                 cy={720}
                 r={5}
-                fill="#B5293F"
+                fill="var(--crimson)"
                 style={{ opacity: reducedMotion ? 1 : divergentProgress }}
               />
             </svg>

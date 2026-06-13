@@ -21,7 +21,7 @@ export function Navigation() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 backdrop-blur-md transition-colors duration-300 ${
-        isLight ? "bg-light-gray/70" : "bg-ink/70"
+        isLight ? "bg-surface/70" : "bg-navy/70"
       }`}
     >
       <nav

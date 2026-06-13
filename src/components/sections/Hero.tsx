@@ -18,7 +18,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-[88vh] items-end bg-ink pb-16 pt-24 md:min-h-[90vh] md:pb-20 md:pt-28"
+      className="relative flex min-h-[88vh] items-end bg-navy pb-16 pt-24 md:min-h-[90vh] md:pb-20 md:pt-28"
       aria-labelledby="hero-heading"
     >
       <div className="pointer-events-none absolute inset-0 overflow-hidden">

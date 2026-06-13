@@ -17,7 +17,7 @@ export function Team() {
   return (
     <section
       id="team"
-      className="relative bg-light-gray py-28 md:py-36"
+      className="relative bg-surface py-28 md:py-36"
       aria-labelledby="team-heading"
     >
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
@@ -25,7 +25,7 @@ export function Team() {
           Team
         </h2>
 
-        <ul className="divide-y divide-border">
+        <ul className="divide-y divide-rule">
           {teamMembers.map((member) => {
             const isOpen = expanded === member.id;
 

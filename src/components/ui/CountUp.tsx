@@ -20,12 +20,16 @@ export function CountUp({
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-20%" });
   const reducedMotion = useReducedMotion();
-  const [display, setDisplay] = useState(0);
+  const [display, setDisplay] = useState(value);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
     if (!inView || reducedMotion) return;
 
-    const controls = animate(0, value, {
+    setIsAnimating(true);
+    setDisplay(1);
+
+    const controls = animate(1, value, {
       duration,
       ease: [0.22, 1, 0.36, 1],
       onUpdate: (latest) => setDisplay(Math.round(latest)),
@@ -34,7 +38,7 @@ export function CountUp({
     return () => controls.stop();
   }, [inView, value, duration, reducedMotion]);
 
-  const shown = reducedMotion ? value : display;
+  const shown = reducedMotion || !isAnimating ? value : display;
 
   return (
     <span ref={ref} className={className} aria-label={`${value}${suffix}`}>
