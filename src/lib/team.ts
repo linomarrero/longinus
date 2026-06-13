@@ -23,6 +23,7 @@ export const teamMembers: TeamMember[] = [
     credentials: [
       "VP of ASES",
       "Stanford Engineering AI Researcher",
+      "Award Winning Public Speaker",
       "Patent-pending Inventor",
     ],
     image: "/team/lino-marrero.jpg",
