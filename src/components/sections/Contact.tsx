@@ -40,7 +40,7 @@ export function Contact() {
             id="contact-heading"
             className="max-w-[20ch] font-serif text-[clamp(2rem,4.5vw,3.75rem)] leading-[1.1] tracking-[-0.03em] text-white"
           >
-            Building at Stanford? Write us.
+            Get in touch.
           </h2>
 
           <div className="mt-16 grid grid-cols-1 gap-16 md:mt-24 md:grid-cols-[1fr_1.1fr] md:gap-24">
