@@ -19,7 +19,7 @@ export function Thesis() {
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
         <motion.h2
           id="thesis-heading"
-          className="ml-0 max-w-[18ch] font-serif text-[clamp(2rem,5.5vw,4.5rem)] leading-[1.08] tracking-[-0.03em] text-white md:ml-[18vw]"
+          className="ml-0 max-w-[18ch] font-serif text-[clamp(1.75rem,4vw,3.25rem)] leading-[1.08] tracking-[-0.03em] text-white md:ml-[18vw]"
           initial={reducedMotion ? false : { opacity: 0, y: 30 }}
           animate={inView || reducedMotion ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
