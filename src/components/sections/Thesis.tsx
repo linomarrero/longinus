@@ -35,22 +35,21 @@ export function Thesis() {
           transition={{ delay: 0.3, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
           <p>
-            Most venture firms meet their founders on pitch day, prepared with
-            memorized lines and a tailored deck. By then the important part of
-            the story is already written. We look for founders earlier, in the
-            rooms other firms wish they could get into: the labs, student orgs,
-            and dorm-room projects where they first start building.
+            Most firms meet their founders on pitch day, with memorized lines
+            and a tailored deck. We get to them earlier, in the rooms other
+            funds wish they could get into: the labs, student orgs, and dorm
+            rooms where they start building.
           </p>
           <p>
-            We can do that because our General Partners run ASES, the largest
-            entrepreneurship organization at Stanford. Garry Tan came through it.
-            So did David Lee. We meet hundreds of builders a year as peers, not
-            across a pitch table.
+            Our General Partners run ASES, the largest entrepreneurship
+            organization at Stanford. Garry Tan came through it. So did David
+            Lee. We meet hundreds of builders a year as peers, not across a
+            pitch table.
           </p>
           <p>
-            Venture returns don&apos;t come from meeting the most founders. They
-            come from meeting the right ones first, then backing few enough of
-            them that we can be in every round and every hard decision.
+            Returns don&apos;t come from meeting the most founders. They come
+            from meeting the right ones first, and backing few enough to be in
+            every round and every hard decision.
           </p>
         </motion.div>
       </div>

@@ -21,8 +21,11 @@ export function Team() {
       aria-labelledby="team-heading"
     >
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10">
-        <h2 id="team-heading" className="sr-only">
-          Team
+        <h2
+          id="team-heading"
+          className="mb-12 font-serif text-[clamp(2rem,5vw,3.5rem)] leading-[1.08] tracking-[-0.03em] text-ink"
+        >
+          Our team
         </h2>
 
         <ul className="divide-y divide-rule">
