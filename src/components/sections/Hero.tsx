@@ -55,6 +55,23 @@ export function Hero() {
             )}
           </span>
         </h1>
+
+        {showSecondLine ? (
+          <motion.p
+            className="mt-10 max-w-2xl font-sans text-[clamp(1rem,2vw,1.125rem)] leading-[1.65] text-white/80"
+            initial={reducedMotion ? false : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          >
+            A pre-seed fund run by the leaders of ASES at Stanford. We back
+            founders before they have decided to build.
+          </motion.p>
+        ) : (
+          <p className="invisible mt-10 max-w-2xl" aria-hidden="true">
+            A pre-seed fund run by the leaders of ASES at Stanford. We back
+            founders before they have decided to build.
+          </p>
+        )}
       </div>
 
       <motion.div

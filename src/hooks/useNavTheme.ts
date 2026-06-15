@@ -6,10 +6,8 @@ export type NavTheme = "light" | "dark";
 
 const SECTION_CONFIG: Record<string, NavTheme> = {
   hero: "dark",
-  divergence: "dark",
   thesis: "dark",
   "why-now": "light",
-  edge: "dark",
   team: "light",
   contact: "dark",
 };

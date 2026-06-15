@@ -24,8 +24,8 @@ export function Thesis() {
           animate={inView || reducedMotion ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          The data says we&apos;re wrong.{" "}
-          <span className="text-crimson">We bet anyway.</span>
+          Most firms compete for founders after they&apos;ve decided to build.{" "}
+          <span className="text-crimson">We find them before that.</span>
         </motion.h2>
 
         <motion.div
@@ -35,17 +35,22 @@ export function Thesis() {
           transition={{ delay: 0.3, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
           <p>
-            The biggest companies get built by founders in their forties with
-            years of experience behind them. That&apos;s the base rate, and we
-            know it. Our bet is the rare young exception, years before anyone
-            else will write the check.
+            Most venture firms meet their founders on pitch day, prepared with
+            memorized lines and a tailored deck. By then the important part of
+            the story is already written. We look for founders earlier, in the
+            rooms other firms wish they could get into: the labs, student orgs,
+            and dorm-room projects where they first start building.
           </p>
           <p>
-            We can do that because we run ASES, the largest entrepreneurship
-            organization at Stanford. Garry Tan came through it. So did David
-            Lee. Every year we meet hundreds of builders before they&apos;ve
-            decided they&apos;re founders, and we&apos;re the first call when
-            they do.
+            We can do that because our General Partners run ASES, the largest
+            entrepreneurship organization at Stanford. Garry Tan came through it.
+            So did David Lee. We meet hundreds of builders a year as peers, not
+            across a pitch table.
+          </p>
+          <p>
+            Venture returns don&apos;t come from meeting the most founders. They
+            come from meeting the right ones first, then backing few enough of
+            them that we can be in every round and every hard decision.
           </p>
         </motion.div>
       </div>
