@@ -25,14 +25,15 @@ export function AboutLonginus() {
         >
           <p
             id="about-longinus-heading"
-            className="mb-6 font-sans text-[10px] uppercase tracking-[0.2em] text-crimson sm:text-xs sm:tracking-[0.22em]"
+            className="mb-8 font-sans text-sm uppercase tracking-[0.2em] text-crimson sm:text-base md:text-lg md:tracking-[0.22em]"
           >
             About Longinus
           </p>
           <div className="space-y-4 font-sans text-[clamp(1rem,2.2vw,1.25rem)] font-medium leading-[1.7] text-white/70">
             <p>
               Founded at Stanford University, Longinus Ventures is a pre-seed fund
-              run by the leaders of ASES.
+              run by the leaders of ASES (The largest Stanford entrepreneurial
+              organization).
             </p>
             <p>
               We write the first check to student founders, often before
