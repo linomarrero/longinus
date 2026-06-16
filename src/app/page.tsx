@@ -1,5 +1,5 @@
 import { Hero } from "@/components/sections/Hero";
-import { WhyStanford } from "@/components/sections/WhyStanford";
+import { AboutLonginus } from "@/components/sections/AboutLonginus";
 import { Thesis } from "@/components/sections/Thesis";
 import { WhyNow } from "@/components/sections/WhyNow";
 import { Team } from "@/components/sections/Team";
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main id="main-content">
       <Hero />
-      <WhyStanford />
+      <AboutLonginus />
       <Thesis />
       <WhyNow />
       <Team />
