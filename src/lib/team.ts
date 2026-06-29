@@ -2,7 +2,8 @@ export type TeamMember = {
   id: string;
   name: string;
   credentials: string[];
-  image: string;
+  image?: string;
+  initials?: string;
 };
 
 export const teamMembers: TeamMember[] = [
@@ -36,7 +37,7 @@ export const teamMembers: TeamMember[] = [
       "Stanford Management Group VP",
       "Stanford Electrical Engineering",
     ],
-    image: "/team/patrick-latterell.jpg",
+    initials: "PL",
   },
   {
     id: "walker",

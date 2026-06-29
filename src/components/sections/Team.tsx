@@ -77,13 +77,22 @@ export function Team() {
                       >
                         <div className="flex flex-col gap-8 pt-8 md:flex-row md:items-start md:gap-12 md:pt-10">
                           <div className="relative h-36 w-36 shrink-0 overflow-hidden rounded-full md:h-52 md:w-52">
-                            <Image
-                              src={member.image}
-                              alt=""
-                              fill
-                              className="object-cover"
-                              sizes="(max-width: 768px) 144px, 208px"
-                            />
+                            {member.initials ? (
+                              <div
+                                className="flex h-full w-full items-center justify-center bg-navy font-serif text-[clamp(2rem,4vw,3.5rem)] leading-none tracking-[-0.03em] text-white"
+                                aria-hidden="true"
+                              >
+                                {member.initials}
+                              </div>
+                            ) : (
+                              <Image
+                                src={member.image!}
+                                alt=""
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 768px) 144px, 208px"
+                              />
+                            )}
                           </div>
                           <ul className="flex flex-col gap-3 font-sans text-base leading-relaxed text-muted md:text-lg">
                             {member.credentials.map((credential) => (
